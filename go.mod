@@ -3,7 +3,7 @@ module github.com/go-openapi/swag
 retract v0.24.0 // bad tagging of the main module: superseeded by v0.24.1
 
 require (
-	github.com/go-openapi/jsonpointer v1.0.0
+	github.com/go-openapi/jsonpointer v1.0.2
 	github.com/go-openapi/swag/cmdutils v0.28.0
 	github.com/go-openapi/swag/conv v0.28.0
 	github.com/go-openapi/swag/fileutils v0.28.0
@@ -14,7 +14,7 @@ require (
 	github.com/go-openapi/swag/stringutils v0.28.0
 	github.com/go-openapi/swag/typeutils v0.28.0
 	github.com/go-openapi/swag/yamlutils v0.28.0
-	github.com/go-openapi/testify/v2 v2.6.0
+	github.com/go-openapi/testify/v2 v2.8.0
 )
 
 require (
@@ -38,4 +38,4 @@ replace (
 	github.com/go-openapi/swag/yamlutils => ./yamlutils
 )
 
-go 1.25.0
+go 1.26.0
