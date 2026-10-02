@@ -4,7 +4,7 @@ require (
 	github.com/go-openapi/swag/jsonutils v0.28.0
 	github.com/go-openapi/swag/jsonutils/adapters/easyjson v0.28.0
 	github.com/go-openapi/swag/jsonutils/fixtures_test v0.28.0
-	github.com/go-openapi/testify/v2 v2.6.0
+	github.com/go-openapi/testify/v2 v2.8.0
 	github.com/mailru/easyjson v0.9.2
 )
 
@@ -26,4 +26,4 @@ replace (
 	github.com/go-openapi/swag/typeutils => ../../../../typeutils
 )
 
-go 1.25.0
+go 1.26.0
